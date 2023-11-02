@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -25,5 +25,8 @@
     "swagger-ui-express": "^4.1.6",
     "xss-clean": "^0.1.4",
     "yamljs": "^0.3.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
